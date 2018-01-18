@@ -1,0 +1,9 @@
+ CREATE TABLE daily_open (
+  symbol char(8) DEFAULT NULL,
+  date date DEFAULT NULL,
+  open decimal(7,4) DEFAULT NULL,
+  close decimal(6,4) DEFAULT NULL,
+  high decimal(7,4) DEFAULT NULL,
+  low decimal(7,4) DEFAULT NULL,
+  volume decimal(12,4) DEFAULT NULL
+) 
